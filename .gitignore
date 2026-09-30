@@ -1,0 +1,37 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+.venv/
+
+# Logs and temporary
+*.log
+!sample_auth.log
+*.tmp
+*.temp
+
+# Personal / sensitive (never commit real secrets)
+secrets/
+*.pem
+*.key
+credentials.*
+.env.local
+
+# Certificate PDFs if they contain personal info (optional)
+# assets/certificate.pdf

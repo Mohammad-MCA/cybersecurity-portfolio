@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Cybersecurity Portfolio</title>
+  <meta name="description" content="Professional portfolio showcasing projects from the Google Cybersecurity Professional Certificate." />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a2332;
+      --accent: #4285f4;
+      --accent2: #34a853;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --border: #2d3748;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      background: linear-gradient(135deg, #1a2332 0%, #0f1419 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    header p { color: var(--muted); max-width: 600px; margin: 0 auto 1.5rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+    .badge {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.35rem 0.9rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .badge.green { border-color: var(--accent2); color: var(--accent2); }
+    main { max-width: 960px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.35rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .card h3 { font-size: 1.05rem; margin-bottom: 0.4rem; }
+    .card .course { font-size: 0.75rem; color: var(--accent2); margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .card p { font-size: 0.9rem; color: var(--muted); }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+    .skill {
+      background: rgba(66, 133, 244, 0.15);
+      color: var(--accent);
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+    }
+    .about {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .about p { color: var(--muted); margin-bottom: 0.75rem; }
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔒 Google Cybersecurity Portfolio</h1>
+    <p>Hands-on projects and skills from the Google Cybersecurity Professional Certificate — ready for entry-level SOC and cybersecurity analyst roles.</p>
+    <div class="badges">
+      <span class="badge green">Certificate Ready</span>
+      <span class="badge">Python · Linux · SQL</span>
+      <span class="badge">NIST CSF · SIEM · IDS</span>
+      <span class="badge">Risk · Detection · Response</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        This portfolio demonstrates practical cybersecurity skills developed through the eight-course
+        Google Cybersecurity Professional Certificate. Each project maps to real job tasks performed
+        by junior cybersecurity and SOC analysts.
+      </p>
+      <p>
+        <strong>Target roles:</strong> Cybersecurity Analyst · SOC Analyst · Security Operations · Junior Information Security Analyst
+      </p>
+      <p>
+        <a href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio">View full repository on GitHub →</a>
+      </p>
+    </section>
+
+    <h2>Projects</h2>
+    <div class="grid">
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/01-professional-statement">
+        <div class="course">Course 1</div>
+        <h3>Professional Statement</h3>
+        <p>Clear career statement highlighting motivation, skills, and target roles.</p>
+        <div class="skills"><span class="skill">Communication</span></div>
+      </a>
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/02-botium-toys-security-audit">
+        <div class="course">Course 2</div>
+        <h3>Botium Toys Security Audit</h3>
+        <p>Full internal audit with controls assessment, compliance checklists (PCI DSS, GDPR, SOC), and prioritized recommendations.</p>
+        <div class="skills"><span class="skill">Risk</span><span class="skill">Compliance</span><span class="skill">Controls</span></div>
+      </a>
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/03-network-security-analysis">
+        <div class="course">Course 3</div>
+        <h3>Network Security Analysis</h3>
+        <p>Traffic analysis, attack identification (SYN flood, DNS anomalies), and network hardening recommendations.</p>
+        <div class="skills"><span class="skill">Wireshark</span><span class="skill">Hardening</span></div>
+      </a>
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/04-linux-file-permissions">
+        <div class="course">Course 4</div>
+        <h3>Linux File Permissions</h3>
+        <p>Practical guide to chmod, chown, least privilege, and secure permission configurations.</p>
+        <div class="skills"><span class="skill">Linux</span><span class="skill">CLI</span></div>
+      </a>
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/05-sql-security-queries">
+        <div class="course">Course 4</div>
+        <h3>SQL Security Queries</h3>
+        <p>Filtering and aggregation queries for log analysis, failed logins, and investigation workflows.</p>
+        <div class="skills"><span class="skill">SQL</span><span class="skill">Log Analysis</span></div>
+      </a>
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/06-vulnerability-assessment">
+        <div class="course">Course 5</div>
+        <h3>Vulnerability Assessment</h3>
+        <p>Asset inventory, threat modeling, risk scoring, and prioritized remediation for a small business.</p>
+        <div class="skills"><span class="skill">Vuln Mgmt</span><span class="skill">Risk Scoring</span></div>
+      </a>
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/07-incident-response-nist">
+        <div class="course">Course 6</div>
+        <h3>NIST Incident Response</h3>
+        <p>Complete incident handler journal aligned with NIST CSF phases: Detect → Respond → Recover.</p>
+        <div class="skills"><span class="skill">NIST CSF</span><span class="skill">IR</span></div>
+      </a>
+      <a class="card" href="https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio/tree/main/08-python-automation">
+        <div class="course">Course 7</div>
+        <h3>Python Security Automation</h3>
+        <p>Working scripts for log parsing (failed-login detection) and algorithmic file-permission updates.</p>
+        <div class="skills"><span class="skill">Python</span><span class="skill">Automation</span></div>
+      </a>
+    </div>
+
+    <h2>Tools &amp; Frameworks</h2>
+    <div class="skills" style="margin-bottom: 2rem;">
+      <span class="skill">Python</span>
+      <span class="skill">Linux</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Wireshark / tcpdump</span>
+      <span class="skill">SIEM (Splunk / Chronicle)</span>
+      <span class="skill">IDS (Suricata)</span>
+      <span class="skill">NIST CSF</span>
+      <span class="skill">CIA Triad</span>
+      <span class="skill">PCI DSS · GDPR · SOC</span>
+    </div>
+  </main>
+
+  <footer>
+    Built for the Google Cybersecurity Professional Certificate · Replace YOUR-USERNAME with your GitHub handle · MIT License
+  </footer>
+</body>
+</html>
