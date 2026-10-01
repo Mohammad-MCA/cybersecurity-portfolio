@@ -125,31 +125,6 @@ google-cybersecurity-portfolio/
 
 ---
 
-## 🚀 Quick Start – Put This on GitHub
-
-1. Create a new repository on GitHub named `google-cybersecurity-portfolio` (or any name you prefer).
-2. Download / clone this portfolio and push:
-
-```bash
-git init
-git add .
-git commit -m "Complete Google Cybersecurity Certificate portfolio"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/google-cybersecurity-portfolio.git
-git push -u origin main
-```
-
-3. **Customize** (required for a professional impression):
-   - Replace `YOUR-USERNAME` in `index.html` and this README
-   - Update the professional statement with your name and background
-   - Add your certificate image to `assets/`
-   - Swap sample findings with your own course lab outputs / screenshots where available
-
-4. **Enable GitHub Pages** (optional but recommended):
-   - Repo → Settings → Pages → Source: Deploy from branch `main` → folder `/ (root)`
-   - Your live portfolio will be at: `https://YOUR-USERNAME.github.io/google-cybersecurity-portfolio/`
-
----
 
 ## 🧪 Test the Python Scripts
 
@@ -173,10 +148,10 @@ No external packages required (pure Python standard library).
 - [x] Working Python automation examples
 - [x] Risk, compliance, and incident-response documentation
 - [x] Network, Linux, and SQL artifacts
-- [ ] Replace placeholders with your personal details
-- [ ] Add official certificate badge / PDF
-- [ ] Link this repo on LinkedIn and resume
-- [ ] (Recommended) Prepare for CompTIA Security+ as dual credential
+- [x] Replace placeholders with your personal details
+- [x] Add official certificate badge / PDF
+- [x] Link this repo on LinkedIn and resume
+- [x] (Recommended) Prepare for CompTIA Security+ as dual credential
 
 ---
 
@@ -187,4 +162,3 @@ Course scenarios and materials are property of Google / Coursera and are used he
 
 ---
 
-**Ready for employers.** Fork it, customize it, and start applying.
