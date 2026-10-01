@@ -24,6 +24,3 @@ Botium Toys is a fictional small U.S. business that sells toys online and in phy
 - Compliance awareness (PCI DSS, GDPR, SOC)  
 - Clear stakeholder communication and documentation  
 
-## How to Use
-
-Replace the sample content with your own completed checklists and written analysis from the course. Add screenshots of any completed templates if available.
