@@ -72,4 +72,3 @@ chmod 640 /var/log/app/*.log
 
 ---
 
-*Add your own command history, screenshots, or course lab outputs here.*
