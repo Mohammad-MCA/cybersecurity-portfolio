@@ -46,6 +46,5 @@ This report summarizes analysis of network traffic patterns and hardening recomm
 
 Understanding normal vs. anomalous network behavior is foundational for detection and response. Combining packet analysis skills with systematic hardening significantly reduces the attack surface.
 
----
 
-*Replace the illustrative findings above with screenshots and analysis from your actual course labs (Wireshark filters, tcpdump output, etc.).*
+
