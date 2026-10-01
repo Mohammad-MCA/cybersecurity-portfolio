@@ -1,8 +1,8 @@
-# Incident Handler’s Journal – Sample Entry
+# Incident Handler’s Journal 
 
 **Incident ID:** INC-2025-0915-001  
 **Date Opened:** 2025-09-15  
-**Handler:** [Your Name]  
+**Handler:** Mohammad  
 **Severity:** High  
 
 ---
@@ -52,4 +52,3 @@
 
 ---
 
-*Use this structure for your own incident journal entries from the course. Replace sample data with actual lab details.*
