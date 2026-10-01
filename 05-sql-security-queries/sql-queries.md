@@ -66,4 +66,3 @@ LIMIT 100;
 
 ---
 
-*Replace or expand these examples with the exact queries you wrote during the course labs.*
