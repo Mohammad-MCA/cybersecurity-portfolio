@@ -37,6 +37,3 @@
 
 **Overall SOC readiness:** Not currently prepared for a SOC 2 examination.
 
----
-
-*Update this checklist with the exact findings from your course activity.*
