@@ -48,4 +48,3 @@
 - Faster detection and response capability  
 - Clear evidence of due diligence for leadership and auditors  
 
-*Customize priorities and timelines based on your actual audit findings and business constraints.*
