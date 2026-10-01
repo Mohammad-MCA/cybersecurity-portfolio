@@ -31,4 +31,3 @@ python3 update_file_permissions.py
 python3 log_parser.py sample_auth.log
 ```
 
-*Replace or extend these scripts with the exact algorithms and solutions you developed in the course labs.*
